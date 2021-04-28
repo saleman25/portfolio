@@ -10,6 +10,9 @@ export default function Nav(){
                     <Link to="/">Home</Link>
                     <Link to="/aboutme">About Me</Link>
                     <Link to="/projects">Projects</Link>
+                    <Link to="/freelance">Freelance Work</Link>
+                    <Link to="/contact">Contact</Link>
+                    <Link to="/resume">Resume</Link>
                     <Link to="/blog">Blog</Link>
                     
                 </li>
