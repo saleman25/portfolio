@@ -6,6 +6,7 @@ const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const rootReducer = combineReducers({
     aboutMe: aboutmeReducer,
     projects: projectsReducer,
+    freelance: freelanceReducer,
     blog: blogReducer,
     resume: resumeReducer,
     contact: contactReducer
