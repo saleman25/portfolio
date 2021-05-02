@@ -5,7 +5,6 @@ import Home from './components/Home';
 import Aboutme from './components/Aboutme';
 import Projects from './components/Projects';
 import Freelance from './components/Freelance';
-import Blog from './components/Blog';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
 
@@ -19,7 +18,10 @@ function App() {
           <Route exact path="/aboutme" component={Aboutme} />
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/freelance" component={Freelance} />
-          <Route exact path="/blog" component={Blog} />
+          <Route path='/blog' component={() => { 
+     window.location.href = 'https://samspace.medium.com/'; 
+     return null;
+}}></Route>
           <Route exact path="/resume" component={Resume} />
           <Route exact path="/contact" component={Contact} />
         </Switch>
