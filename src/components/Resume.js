@@ -1,17 +1,15 @@
-import React, { useState, Component } from 'react';
-import { Document, Page } from 'react-pdf';
+import React, { Component } from 'react';
+import img from '../images/resume.jpg'
 
 class Resume extends Component {
 
-
-  render() {
+render() {
   return (
     <div>
-      <Document
-        file="../resume/resume.pdf"
-      >
-        <Page pageNumber={1} />
-      </Document>
+      
+        <div class="resume">
+            <img src={img} alt={"resume"}/>
+        </div>
       
     </div>
   );

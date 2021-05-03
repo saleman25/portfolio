@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import '../App.css';
+import img from '../images/anakin.jpg';
 
 class Aboutme extends Component {
     render () {
@@ -15,6 +16,9 @@ class Aboutme extends Component {
                 <p>
                     I also love the space, 80's new wave, horror movies, and corgis especially mine, Anakin.
                 </p>
+                <div class="anakin">
+                <img src={img} alt={"corgi"}/>
+                </div>
             </div>
         );
     }
