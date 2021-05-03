@@ -15,3 +15,62 @@ h1 {
   margin: auto;
   display: block;
 }
+
+.topnav {
+  background-color: #ff99cc;
+  overflow: hidden;
+  
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  border-style: solid;
+  border-color: #ffb3d9;
+  border-width: thin;
+  text-decoration: none;
+  font-size: 16px;
+  
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ffcce6;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color:  #ff99cc;
+  color: white;
+}
+
+ul.navie {
+  list-style-type: none;
+}
+
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: pink;
+  font-family: Sans-Serif;
+  line-height: 18px;
+  text-align: center;
+}
+
+.App {
+  background: #fff;
+  -moz-box-shadow: 0 0 10px rgba(0,0,0,.3);
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,.3);
+  box-shadow: 0 0 10px rgba(0,0,0,.3);
+  margin: 16px auto;
+  max-width: 960px;
+  padding: 2.25%; /* 18px / 800px */
+  width: 85%;
+}
+
