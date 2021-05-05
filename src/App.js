@@ -19,9 +19,9 @@ function App() {
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/freelance" component={Freelance} />
           <Route path='/blog' component={() => { 
-     window.open('https://samspace.medium.com/', '_blank', 'toolbar=0,location=0,menubar=0'); 
-     return null;
-}}></Route>
+          window.open('https://samspace.medium.com/', '_blank'); 
+          return null;
+          }}></Route>
           <Route exact path="/resume" component={Resume} />
           <Route exact path="/contact" component={Contact} />
         </Switch>
