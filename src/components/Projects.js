@@ -10,46 +10,56 @@ import Grid from '@material-ui/core/Grid';
 function Projects() {
   return (
     <div>
-
+      <br></br>
     <div class='projectcard'>
       <h1>this is the title</h1>
-      <div class='img'>
+      <div class='projectimg'>
         <p>this is going to be the image</p>
       </div>
-      <div class='description'>
+      <div class='projectdescription'>
+      <h4>Technologies Used:</h4>
         <p>this is going to be the description</p>
       </div>
       <p>i need to add hyperlinks for the repo and demo</p>
     </div>
 
+    <br></br>
+
     <div class='projectcard'>
       <h1>this is the title</h1>
-      <div class='img'>
+      <div class='projectimg'>
         <p>this is going to be the image</p>
       </div>
-      <div class='description'>
+      <div class='projectdescription'>
+      <h4>Technologies Used:</h4>
         <p>this is going to be the description</p>
       </div>
       <p>i need to add hyperlinks for the repo and demo</p>
     </div>
 
+<br></br>
+
     <div class='projectcard'>
-      <h1>this is the title</h1>
-      <div class='img'>
-        <p>this is going to be the image</p>
+      <h1>Dog Twitter</h1>
+      <div class='dogimg'>
+        
       </div>
-      <div class='description'>
+      <div class='projectdescription'>
+        <h4>Technologies Used:</h4>
         <p>this is going to be the description</p>
       </div>
       <p>i need to add hyperlinks for the repo and demo</p>
     </div>
 
+    <br></br>
+
     <div class='projectcard'>
       <h1>this is the title</h1>
-      <div class='img'>
+      <div class='projectimg'>
         <p>this is going to be the image</p>
       </div>
-      <div class='description'>
+      <div class='projectdescription'>
+      <h4>Technologies Used:</h4>
         <p>this is going to be the description</p>
       </div>
       <p>i need to add hyperlinks for the repo and demo</p>

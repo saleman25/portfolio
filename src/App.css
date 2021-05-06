@@ -74,3 +74,32 @@ body {
   width: 85%;
 }
 
+.projectcard {
+    border: 2px solid mediumpurple;
+    background-color: white;
+    box-shadow: 0 8px 6px -6px black;
+    width: 550px;
+    height: 550px;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 25px;
+    
+}
+
+.dogimg {
+  width: 25vw;
+  height: 25vw;
+  background-image: url("./images/dogtwitter.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: inline-block;
+  text-align: center;
+ 
+}
+
+.projectdescription {
+ 
+  text-align: center;
+}
+
