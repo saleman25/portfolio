@@ -3,7 +3,7 @@ import Nav from './components/Nav';
 import './App.css';
 import Home from './components/Home';
 import Aboutme from './components/Aboutme';
-import Projects from './components/Projects';
+import Projects from './components/Projects/Projects';
 import Freelance from './components/Freelance';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
