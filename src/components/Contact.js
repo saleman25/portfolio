@@ -1,7 +1,13 @@
 import React, {Component} from 'react';
 import '../App.css';
+import * as emailjs from "emailjs-com";
+import { toast } from 'react-toastify';
 import{ init } from 'emailjs-com';
 init("user_9aQ988aPuDujNfLP91Wf4");
+
+
+const userId = 'user_9aQ988aPuDujNfLP91Wf4'
+const emailId = 'service_o8qv7ii';
 
 export default class Contact extends Component {
     constructor(props) {
@@ -12,6 +18,8 @@ export default class Contact extends Component {
         feedback: "",
       };
     }
+
+
   handleInputChange(event) {
       event.preventDefault();
       const target = event.target;
@@ -25,13 +33,13 @@ export default class Contact extends Component {
     if (!this.validateMail()) {
           return;
         }
-    const templateParams = {
+    var templateParams = {
           from_name: this.state.name + " (" + this.state.email + ")",
-          to_name: {'Samantha Portfolio Site'},
+          to_name: {emailId},
           feedback: this.state.feedback
         };
     emailjs
-          .send("gmail", "portfoliositecontact", templateParams, {user_9aQ988aPuDujNfLP91Wf4})
+          .send("gmail", "portfoliositecontact", templateParams, {userId})
           .then(
             function(response) {
               toast.success("Your message has successfully sent!", {
@@ -53,6 +61,7 @@ export default class Contact extends Component {
     render() {
         return (
           <div>
+              <br></br>
             <form
               className="ui form"
               id={this.props.id}
@@ -64,7 +73,7 @@ export default class Contact extends Component {
                 id="name"
                 name="name"
                 onChange={this.handleInputChange.bind(this)}
-                placeholder="your name"
+                placeholder="Your name"
                 required
                 value={this.state.name}
                 style={{ width: "100%" }}
@@ -75,10 +84,10 @@ export default class Contact extends Component {
                 id="email"
                 name="email"
                 onChange={this.handleInputChange.bind(this)}
-                placeholder="your email address"
+                placeholder="Your email address"
                 required
                 value={this.state.email}
-                error={this.state.errors.email}
+                
                 style={{ width: "100%" }}
                 rows={1}
               />
@@ -87,7 +96,7 @@ export default class Contact extends Component {
                 id="feedback"
                 name="feedback"
                 onChange={this.handleInputChange.bind(this)}
-                placeholder="what would you like to chat about?"
+                placeholder="What would you like to chat about?"
                 required
                 value={this.state.feedback}
                 style={{ width: "100%", height: "250px" }}
@@ -100,7 +109,7 @@ export default class Contact extends Component {
                 style={{
                   fontFamily: "Amatic SC",
                   fontSize: "20px",
-                  color: "blue"
+                  color: "hotpink"
                 }}
                 onClick={this.sendMessage.bind(this)}
               />
