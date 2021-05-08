@@ -6,9 +6,8 @@ class Resume extends Component {
 render() {
   return (
     <div>
-      
+      <br></br>
         <div class="resume">
-            <img src={img} alt={"resume"}/>
         </div>
       
     </div>

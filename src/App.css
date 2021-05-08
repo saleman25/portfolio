@@ -87,8 +87,8 @@ body {
 }
 
 .dogimg {
-  width: 25vw;
-  height: 25vw;
+  width: 31vw;
+  height: 17vw;
   background-image: url("./images/dogtwitter.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -103,3 +103,58 @@ body {
   text-align: center;
 }
 
+li {
+  list-style-type: none;
+}
+
+h4 + ul {
+  margin-top: -15px;
+}
+
+.spaceimg {
+  width: 30vw;
+  height: 15vw;
+  background-image: url("./images/spacethings.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: inline-block;
+  text-align: center;
+ 
+}
+
+.corgiimg {
+  width: 30vw;
+  height: 15vw;
+  background-image: url("./images/corgitama.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: inline-block;
+  text-align: center;
+}
+
+.passportimg {
+  width: 30vw;
+  height: 15vw;
+  background-image: url("./images/passport.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: inline-block;
+  text-align: center;
+}
+
+.resume {
+  width: 63vw;
+  height: 75vw;
+  background-image: url("./images/resume.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: inline-block;
+  text-align: center;
+  border: 2px solid hotpink;
+  background-color: white;
+  box-shadow: 0 8px 6px -6px black;
+}
