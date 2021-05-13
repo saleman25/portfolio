@@ -8,13 +8,24 @@ class Aboutme extends Component {
             <div>
                 <h1>About Me</h1>
                 <p>
-                    Howdy! My name is Samantha. I am a full-stack web developer. 
-                    I'm specialized in Ruby and Javascript. 
-                    I have a passion for frontend developement
+                    Howdy! My name is Samantha. I am a full-stack web developer with a passion for frontend development.
+                    Theres two things in my life that I've always loved.
+                    Being able to help others
+                    and
+                    Being able to learn  
+                    My whole life I have loved being able to help people in any way that I can. From working 
+                    in the service industry as a barista to now being able to develope code in my freelance work, I love being 
+                    able to help someone get what they want. When I first enrolled at Flatiron School I didn't realize I was going 
+                    to fall in love with coding as much as I did and that it would come so easily to me. 
+                    As I continue my career doing what I love I want to be able to share that with others so they can achieve what they love as well. 
+                    With software engineering there's so much for me to learn and things are always changing and things are always being created
+                    so I will always be learning so I can be the best I can be. And to me that is the best life I could ever ask for.
+
                 </p>
                 <br></br>
                 <p>
-                    I also love the space, 80's new wave, horror movies, and corgis especially mine, Anakin.
+                    Aside from software engineering I also love everything about space Sagan, Kaku, Tyson are genuises when it comes to the cosmos and the physics around it. I also love 80's new wave shoutout to my dad for getting me into The Psychedlic Furs and New Order and shoutout to my mom for giving me my love for horror movies. 
+                    I also love corgis especially mine, Anakin.
                 </p>
                 <div class="anakin">
                 <img src={img} alt={"corgi"}/>

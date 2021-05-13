@@ -7,7 +7,7 @@ export default function Nav(){
         <div class='topnav'>
             <ul class='navie'>
                 <li>
-                    <Link to="/">Home</Link>
+                    <Link to="/">♥</Link>
                     <Link to="/aboutme">About Me</Link>
                     <Link to="/projects">Projects</Link>
                     <Link to="/freelance">Freelance Work</Link>
