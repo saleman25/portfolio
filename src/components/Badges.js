@@ -7,10 +7,10 @@ function Badges() {
         <div>
             <div class='badges'>
                 <a href="https://github.com/saleman25">
-                    <img src={git} />
+                    <img src={git} class="git" />
                 </a>
                 <a href="https://www.linkedin.com/in/samantha-aleman-b83306b5/">
-                    <img src={linked} />
+                    <img src={linked} class="link" />
                 </a>
                 
             </div>

@@ -164,3 +164,13 @@ h4 + ul {
     width: 100%;
     display: flex;
 }
+
+.git {
+  width: 15%;
+  margin-left: 45px;
+  float: right;
+  
+}
+.link {
+  width: 15%;
+}

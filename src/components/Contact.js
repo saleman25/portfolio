@@ -3,7 +3,9 @@ import '../App.css';
 import * as emailjs from "emailjs-com";
 import { toast } from 'react-toastify';
 import{ init } from 'emailjs-com';
+import Badges from './Badges.js';
 init("user_9aQ988aPuDujNfLP91Wf4");
+
 
 
 const userId = 'user_9aQ988aPuDujNfLP91Wf4'
@@ -114,6 +116,8 @@ export default class Contact extends Component {
                 onClick={this.sendMessage.bind(this)}
               />
             </form>
+            <br></br>
+                <Badges></Badges>
           </div>
         );
       };
