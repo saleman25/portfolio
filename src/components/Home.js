@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import '../App.css';
+import Badges from './Badges.js';
 
 class Home extends Component {
     render () {
@@ -7,6 +8,7 @@ class Home extends Component {
             <div>
                 <h1>Samantha Aleman</h1>
                 <h2>Software Engineer in Los Angeles</h2>
+                <Badges></Badges>
             </div>
         );
     }
