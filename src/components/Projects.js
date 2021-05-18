@@ -3,6 +3,8 @@
 
 import React from 'react';
 import '../App.css';
+import Space from './projects/Space.js'
+import Corgi from './projects/Corgi.js'
 
 import Grid from '@material-ui/core/Grid';
 
@@ -24,9 +26,8 @@ function Projects() {
         <li>CSS</li>
         <li>Rails</li>
       </ul>
-        <p>this is going to be the description</p>
+        <Space> </Space>
       </div>
-      <p>i need to add hyperlinks for the repo and demo</p>
     </div>
 
     <br></br>
@@ -44,9 +45,9 @@ function Projects() {
         <li>CSS</li>
         <li>Rails</li>
       </ul>
-        <p>this is going to be the description</p>
+        <Corgi></Corgi>
       </div>
-      <p>i need to add hyperlinks for the repo and demo</p>
+      
     </div>
 
 <br></br>
