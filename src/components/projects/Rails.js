@@ -14,10 +14,10 @@ function Rails() {
 
             <div>
 
-            <a href='https://github.com/saleman25/rails-portfolio-project'>
+            <a href='https://github.com/saleman25/rails-portfolio-project' class='projectl'>
                 Repo
             </a>
-            <a href='https://drive.google.com/file/d/1O6KRNJ-c35yIK8nfOt6_1YMP3GpTXn6O/view?usp=sharing'>
+            <a href='https://drive.google.com/file/d/1O6KRNJ-c35yIK8nfOt6_1YMP3GpTXn6O/view?usp=sharing' class='projectl'>
                 Demo
             </a>
 

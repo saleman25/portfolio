@@ -12,13 +12,13 @@ function Space() {
 
             <div>
 
-            <a href='https://github.com/saleman25/space-front'>
+            <a href='https://github.com/saleman25/space-front' class='projectl'>
                 Frontend Repo
             </a>
-            <a href='https://github.com/saleman25/space-backend'>
+            <a href='https://github.com/saleman25/space-backend' class='projectl'>
                 Backend Repo
             </a>
-            <a href='https://drive.google.com/file/d/1L5_bNtOo-FiYWiFktYeOcC4FbKlmEB4y/view?usp=sharing'>
+            <a href='https://drive.google.com/file/d/1L5_bNtOo-FiYWiFktYeOcC4FbKlmEB4y/view?usp=sharing' class='projectl'>
                 Demo
             </a>
 

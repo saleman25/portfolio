@@ -11,13 +11,13 @@ function Corgi() {
 
             <div>
 
-            <a href='https://github.com/saleman25/corgi-tama-frontend'>
+            <a href='https://github.com/saleman25/corgi-tama-frontend' class='projectl'>
                 Frontend Repo
             </a>
-            <a href='https://github.com/saleman25/corgi-tama-backend'>
+            <a href='https://github.com/saleman25/corgi-tama-backend' class='projectl'>
                 Backend Repo
             </a>
-            <a href='https://drive.google.com/file/d/1OrsjRf6ZxAKrYIi8r3GvVQDf0FsDRWM2/view?usp=sharing'>
+            <a href='https://drive.google.com/file/d/1OrsjRf6ZxAKrYIi8r3GvVQDf0FsDRWM2/view?usp=sharing' class='projectl'>
                 Demo
             </a>
 

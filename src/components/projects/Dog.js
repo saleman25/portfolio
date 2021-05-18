@@ -12,10 +12,10 @@ function Dog() {
 
             <div>
 
-            <a href='https://github.com/saleman25/sinatra-project'>
+            <a href='https://github.com/saleman25/sinatra-project' class='projectl'>
                 Repo
             </a>
-            <a href='https://drive.google.com/file/d/19Gt7hRs_dXul1vgPlOQlFRoniJwbuoGg/view?usp=sharing'>
+            <a href='https://drive.google.com/file/d/19Gt7hRs_dXul1vgPlOQlFRoniJwbuoGg/view?usp=sharing' class='projectl'>
                 Demo
             </a>
 
