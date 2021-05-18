@@ -3,8 +3,10 @@
 
 import React from 'react';
 import '../App.css';
-import Space from './projects/Space.js'
-import Corgi from './projects/Corgi.js'
+import Space from './projects/Space.js';
+import Corgi from './projects/Corgi.js';
+import Dog from './projects/Dog.js';
+import Rails from './projects/Rails.js';
 
 import Grid from '@material-ui/core/Grid';
 
@@ -64,9 +66,9 @@ function Projects() {
         <li>HTML</li>
         <li>CSS</li>
       </ul>
-        <p>this is going to be the description</p>
+        <Dog></Dog>
       </div>
-      <p>i need to add hyperlinks for the repo and demo</p>
+  
     </div>
 
     <br></br>
@@ -83,9 +85,9 @@ function Projects() {
         <li>HTML</li>
         <li>CSS</li>
       </ul>
-        <p>this is going to be the description</p>
+        <Rails></Rails>
       </div>
-      <p>i need to add hyperlinks for the repo and demo</p>
+      
     </div>
 
 
