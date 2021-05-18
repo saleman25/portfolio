@@ -6,8 +6,9 @@ class Aboutme extends Component {
     render () {
         return (
             <div>
-                <h1>About Me</h1>
-                <p>
+                <br></br>
+                <h1 class='me'>About Me</h1>
+                <p class='abtme'>
                     Howdy! My name is Samantha. I am a full-stack web developer with a passion for frontend development.
                     Theres two things in my life that I've always loved.
                     Being able to help others
@@ -23,7 +24,7 @@ class Aboutme extends Component {
 
                 </p>
                 <br></br>
-                <p>
+                <p class='abtme'>
                     Aside from software engineering I also love everything about space Sagan, Kaku, Tyson are genuises when it comes to the cosmos and the physics around it. I also love 80's new wave shoutout to my dad for getting me into The Psychedlic Furs and New Order and shoutout to my mom for giving me my love for horror movies. 
                     I also love corgis especially mine, Anakin.
                 </p>

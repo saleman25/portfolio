@@ -14,6 +14,10 @@ h1 {
   max-height: 100%;
   margin: auto;
   display: block;
+  border: 5px solid transparent;
+  border-image: linear-gradient(to bottom right, #d1c2ff 0%, #c2ffff 25%, #d1ffc2 50%, #ffffc2 75%, #ffc2d1 100%);
+  border-image-slice: 1;
+  margin: 20px auto;
 }
 
 .topnav {
@@ -192,10 +196,69 @@ h4 + ul {
   background-repeat: repeat-x;
   background-size: 4px 4px;
   transition: background-size .2s;
+  font-style: oblique;
 }
 
 
 .projectl:hover {
   background-size: 4px 50px;
-  
 }
+
+.desc {
+  font-style: oblique;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.abtme {
+  text-align: center;
+  font-style: oblique;
+  border: 5px solid transparent;
+  border-image: linear-gradient(to bottom right, #d1c2ff 0%, #c2ffff 25%, #d1ffc2 50%, #ffffc2 75%, #ffc2d1 100%);
+  border-image-slice: 1;
+  margin: 20px auto;
+  background: white;
+  transition: background-color 2s ease-out 100ms
+  }
+  
+.abtme:hover {
+  background-color: #ffe6ea;
+    
+}
+
+.me {
+  font-style: oblique;
+  border-style: solid;
+  border-width: .125em 0;
+  margin: 0 .25em;
+  padding: .5em .375em;
+  position: relative;
+  z-index: 1;
+}
+
+  .me:before {
+      background-color: inherit;
+      border: inherit;
+      border-width: 0 .125em;
+      bottom: .125em;
+      content: '';
+      left: -.25em;
+      pointer-events: none;
+      position: absolute;
+      top: .125em;
+      right: -.25em;
+      z-index: -1;
+  }
+
+  .me:after {
+      border: inherit;
+      border-width: 0 .125em;
+      bottom: 0;
+      content: '';
+      left: -.125em;
+      position: absolute;
+      top: 0;
+      right: -.125em;
+      z-index: -2;
+  }
+
+

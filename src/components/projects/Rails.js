@@ -3,7 +3,7 @@ import React from 'react'
 function Rails() {
     return (
         <div>
-           <p>
+           <p class='desc'>
            This project is my take on a virtual passport! 
            You can document places you have already been to and had a blast or 
            to plan out where you want to go to next! 
