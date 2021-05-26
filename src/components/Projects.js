@@ -55,7 +55,7 @@ function Projects() {
 <br></br>
 
     <div class='projectcard'>
-      <h1>Did You See a Dog Today?</h1>
+      <h1>Did You See a Dog?</h1>
       <div class='dogimg'>
         
       </div>
