@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import img from '../images/resume.jpg'
+
 
 class Resume extends Component {
 

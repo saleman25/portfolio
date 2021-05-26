@@ -8,7 +8,7 @@ import Corgi from './projects/Corgi.js';
 import Dog from './projects/Dog.js';
 import Rails from './projects/Rails.js';
 
-import Grid from '@material-ui/core/Grid';
+
 
 
 function Projects() {
