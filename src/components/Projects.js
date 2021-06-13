@@ -7,7 +7,7 @@ import Space from './projects/Space.js';
 import Corgi from './projects/Corgi.js';
 import Dog from './projects/Dog.js';
 import Rails from './projects/Rails.js';
-
+import Netflix from './projects/Netflix.js';
 
 
 
@@ -53,6 +53,22 @@ function Projects() {
     </div>
 
 <br></br>
+
+<div class='projectcard'>
+      <h1>Netflix Clone</h1>
+      <div class='netfliximg'>
+        
+      </div>
+      <div class='projectdescription'>
+      <h4>Technologies Used:</h4>
+      <ul>
+        <li>React</li>
+        <li>HTML</li>
+        <li>CSS</li>
+      </ul>
+        <Netflix></Netflix>
+      </div>
+    </div>
 
     <div class='projectcard'>
       <h1>Did You See a Dog?</h1>

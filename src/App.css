@@ -146,6 +146,17 @@ h4 + ul {
   text-align: center;
 }
 
+.netfliximg {
+  width: 30vw;
+  height: 15vw;
+  background-image: url("./images/netflix.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: inline-block;
+  text-align: center;
+}
+
 .passportimg {
   width: 30vw;
   height: 15vw;
