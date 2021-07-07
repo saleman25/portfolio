@@ -13,7 +13,7 @@ class Aboutme extends Component {
                     Theres two things in my life that I've always loved.
                     Being able to help others
                     and
-                    Being able to learn  
+                    being able to learn.  
                     My whole life I have loved being able to help people in any way that I can. From working 
                     in the service industry as a barista to now being able to develope code in my freelance work, I love being 
                     able to help someone get what they want. When I first enrolled at Flatiron School I didn't realize I was going 

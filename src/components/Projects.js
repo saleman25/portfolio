@@ -8,12 +8,14 @@ import Corgi from './projects/Corgi.js';
 import Dog from './projects/Dog.js';
 import Rails from './projects/Rails.js';
 import Netflix from './projects/Netflix.js';
+import Twitter from './projects/Twitter.js';
+import Google from './projects/Google.js';
 
 
 
 function Projects() {
   return (
-    <div>
+    <div id="projects" class='grid'>
       <br></br>
     <div class='projectcard'>
       <h1>Space Things</h1>
@@ -32,7 +34,45 @@ function Projects() {
       </div>
     </div>
 
-    <br></br>
+    {/* <br></br> */}
+
+    <div class='projectcard'>
+      <h1>Google Clone</h1>
+      <div class='googleimg'>
+        
+      </div>
+      <div class='projectdescription'>
+      <h4>Technologies Used:</h4>
+      <ul>
+        <li>React</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Material-UI</li>
+        <li>Material-UI/Icons</li>
+      </ul>
+        <Google> </Google>
+      </div>
+    </div>
+
+{/* <br></br> */}
+
+    <div class='projectcard'>
+      <h1>Twitter Clone</h1>
+      <div class='twitterimg'>
+        
+      </div>
+      <div class='projectdescription'>
+      <h4>Technologies Used:</h4>
+      <ul>
+        <li>React</li>
+        <li>HTML</li>
+        <li>CSS</li>
+      </ul>
+        <Twitter> </Twitter>
+      </div>
+    </div>
+
+    {/* <br></br> */}
 
     <div class='projectcard'>
       <h1>Corgi-Tama</h1>
@@ -52,7 +92,7 @@ function Projects() {
       
     </div>
 
-<br></br>
+{/* <br></br> */}
 
 <div class='projectcard'>
       <h1>Netflix Clone</h1>
@@ -87,7 +127,7 @@ function Projects() {
   
     </div>
 
-    <br></br>
+    {/* <br></br> */}
 
     <div class='projectcard'>
       <h1>Rails Passport</h1>

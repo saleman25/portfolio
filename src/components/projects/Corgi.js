@@ -3,16 +3,6 @@ import React from 'react'
 function Corgi() {
     return (
         <div>
-            <p class='desc'>
-            Remember TamaGotchis? Ever wanted to own a corgi, but for some reason you can’t? 
-            Well now you can have the best of both worlds! My project is inspired by TamaGotchis and my corgi Anakin. 
-            You can adopt your own happy corgi and play with them until they grow up and have to leave to the big city 
-            to provide for the family!
-            I used Javascript for the frontend and Ruby on Rails for the backend.
-            </p>
-            <br></br>
-
-            <div>
 
             <a href='https://github.com/saleman25/corgi-tama-frontend' class='projectl'>
                 Frontend Repo
@@ -24,8 +14,15 @@ function Corgi() {
                 Demo
             </a>
 
+            <p class='desc'>
+            Remember TamaGotchis? Ever wanted to own a corgi? 
+            Well now you can have the best of both worlds! My project is inspired by TamaGotchis and my corgi Anakin. 
+            You can adopt your own happy corgi and play with them until they grow up and have to leave to the big city 
+            to provide for the family!
+            </p>
+            <br></br>
 
-            </div>
+            
         </div>
     )
 }

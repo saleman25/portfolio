@@ -3,13 +3,7 @@ import React from "react";
 function Netflix() {
   return (
     <div>
-      <p class="desc">
-        Created a Netflix clone using React. Utilized The Movie Database API's
-        to fetch information. Styled with CSS/HTML/JSX.
-      </p>
-      <br></br>
 
-      <div>
         <a href="https://github.com/saleman25/netflix-clone" class="projectl">
           Repo
         </a>
@@ -20,7 +14,13 @@ function Netflix() {
         >
           Demo
         </a>
-      </div>
+
+      <p class="desc">
+        Created a Netflix clone using React. Utilized The Movie Database API's
+        to fetch information. Styled with CSS/HTML/JSX.
+      </p>
+
+      
     </div>
   );
 }

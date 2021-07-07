@@ -89,11 +89,13 @@ body {
     border: 2px solid mediumpurple;
     background-color: white;
     box-shadow: 0 8px 6px -6px black;
-    width: 550px;
+    width: 400px;
     height: 600px;
     text-align: center;
     display: inline-block;
     margin-bottom: 25px;
+    overflow: hidden;
+    /* contain: strict; */
     
 }
 
@@ -110,13 +112,15 @@ body {
 }
 
 .projectdescription {
- 
   text-align: center;
 }
 
 li {
   list-style-type: none;
-  
+}
+ul li:before {
+  content: "\2665 ";
+  color: #ff99cc;
 }
 
 h4 + ul {
@@ -139,6 +143,28 @@ h4 + ul {
   width: 30vw;
   height: 15vw;
   background-image: url("./images/corgitama.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: inline-block;
+  text-align: center;
+}
+
+.googleimg {
+  width: 30vw;
+  height: 15vw;
+  background-image: url("./images/google.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: inline-block;
+  text-align: center;
+}
+
+.twitterimg {
+  width: 30vw;
+  height: 15vw;
+  background-image: url("./images/twitter.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -292,6 +318,7 @@ h4 + ul {
     display: inline-block;
     margin-bottom: 25px;
     font-style: oblique;
+    overflow: hidden;
     
 } 
 
@@ -329,3 +356,10 @@ h4 + ul {
   width: 400px;
   margin-bottom: 40px;
 }
+
+
+#projects > div {
+  margin: 10px;
+  
+}
+
